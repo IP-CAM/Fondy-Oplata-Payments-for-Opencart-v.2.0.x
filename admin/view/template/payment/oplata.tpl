@@ -4,7 +4,7 @@
     <div class="page-header">
         <div class="container-fluid">
             <div class="pull-right">
-                <button type="submit" form="form-cod" data-toggle="tooltip" title="<?php echo $button_save; ?>" class="btn btn-primary"><i class="fa fa-save"></i></button>
+                <button onclick="$('#form').submit();" type="submit" form="form-cod" data-toggle="tooltip" title="<?php echo $button_save; ?>" class="btn btn-primary"><i class="fa fa-save"></i></button>
                 <a href="<?php echo $cancel; ?>" data-toggle="tooltip" title="<?php echo $button_cancel; ?>" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
             <h1><?php echo $heading_title; ?></h1>
             <ul class="breadcrumb">
@@ -25,7 +25,7 @@
                 <h3 class="panel-title"><i class="fa fa-pencil"></i> <?php echo $heading_title; ?></h3>
             </div>
             <div class="panel-body">
-      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form"  class="form-horizontal">
         <table class="form">
           <tr>
             <td><span class="required">*</span> <?php echo $entry_merchant; ?></td>
