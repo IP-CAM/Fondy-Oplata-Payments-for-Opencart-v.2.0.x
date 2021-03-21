@@ -1,15 +1,15 @@
-#Модуль для CMS Opencart
+# Module for CMS OpenCart
 ======
 
-Back ref : http://{домен сайта}/index.php?route=payment/oplata/response
-Server back : http://{домен сайта}/index.php?route=payment/oplata/callback
+Back Ref: http: // {domain site} /index.php?Route=Payment/oplata/Response
+Server Back: http: // {domain site} /index.php?Route=Payment/oplata/callback
 
-#Установка
+# Installation
 -------------
-1. Скопировать папки admin и catalog в корень сайта
-2. Зайти в админку сайта
-2.1 Выбрать меню "Дополнения" -> "Оплата"
-3. В списке оплат найти способ "Oplata"
-3.1 Нажать кнопку "Установить"
-3.2 Нажать кнопку "Изменить"
-4. Заполнить необходимые поля и сохранить изменения
+1. Copy Admin and Catalog folders in the site root
+2. Go to the site admin
+2.1 Select the "Add-on" menu -> "Payment"
+3. In the list of payments to find the method "Oplata"
+3.1 Press the "Install" button
+3.2 Press the "Change" button
+4. Fill out the necessary fields and save changes
